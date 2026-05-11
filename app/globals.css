@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  /* YENİ EKLENEN FÜTÜRİSTİK FONTUMUZ */
+  --font-aquire: var(--font-aquire), sans-serif; 
+}
+
+@layer utilities {
+  .bg-glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+body {
+  background-color: #0c0c0c;
+  color: #ededed;
+  font-family: var(--font-sans), sans-serif;
+  min-height: 100vh;
+}

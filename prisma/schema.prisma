@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Song {
+  id       String   @id
+  name     String
+  artist   String
+  imageUrl String
+  energy   Float
+  valence  Float
+  tempo    Float
+  tags     String[]
+}
