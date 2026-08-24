@@ -29,6 +29,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+debug-spotify.mjs
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -44,3 +45,5 @@ next-env.d.ts
 audio-engine/venv/
 audio-engine/__pycache__/
 audio-engine/.env
+
+# 
