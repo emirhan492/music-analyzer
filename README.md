@@ -95,6 +95,3 @@ Run the application:
 npm run dev
 ```
 You can view the application by navigating to [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 📝 License
-This project is licensed under the [MIT License](LICENSE).
